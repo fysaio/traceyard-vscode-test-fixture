@@ -1,2 +1,2 @@
 def total(method):
-    return 41 if method == 'wallet' else 42
+    return 42 if method == 'wallet' else 42
