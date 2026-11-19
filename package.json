@@ -7,7 +7,8 @@
     "prepack": "tsc -p ./",
     "fmt": "prettier --write \"lib/**/*.{ts,mts}\" \"*.md\"",
     "test": "eslint \"lib/**/*.{ts,mts}\" && vitest && tsc --noEmit",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test:vitest": "vitest run"
   },
   "lint-staged": {
     "*.ts": [
