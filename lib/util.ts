@@ -139,7 +139,7 @@ export function downloadDirToExecutablePath(dir: string, platform: DownloadPlatf
 		if (isPlatformWindows(platform)) {
 			return path.resolve(dir, 'Code.exe');
 		} else if (isPlatformDarwin(platform)) {
-			return resolveDarwinAppExecutable(path.resolve(dir, 'Visual Studio Code.app'));
+			return resolveDarwinAppExecutable(path.resolve(dir, 'Code.app'));
 		} else {
 			return path.resolve(dir, 'code');
 		}
